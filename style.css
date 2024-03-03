@@ -3,8 +3,8 @@ body {
     background-image: url("taustakuva.jpg");
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-repeat: repeat;
+    background-size: cover;
   }
 
   .sailo {
@@ -22,9 +22,9 @@ body {
   nav{
     font-size: 5vw;
     height: 7vw;
-    width: 55%; 
+    width: 60vw; 
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: 10%;
     padding-bottom: 5%;
   } 
@@ -47,6 +47,14 @@ body {
   }
 
   img{
+    width: 95%;
+  }
+
+  video{
+    width: 95%;
+  }
+
+  p {
     width: 95%;
   }
   
