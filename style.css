@@ -59,11 +59,11 @@ body {
   }
   
   .yhteistiedot{
-    width: 10%;
-    font-size: 1.2em;
+    width: 40vw;
+    font-size: 1.0em;
     padding-top: 1%;
     padding-left: 1%;
-    padding-right: 5%;
+    padding-right: 1%;
     padding-bottom: 1%;
     background-color: rgba(240, 248, 255, 0.7);
   }
