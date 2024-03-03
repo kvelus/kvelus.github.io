@@ -2,7 +2,47 @@ body {
     background-color: lightblue;
   }
   
+  /*h1 ei vielä käytössä*/
   h1 {
     color: navy;
-    margin-left: 20px;
+    margin-left: 20vw; 
   }
+
+  /*padding: top, sides, bottom*/
+  .sailo {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+  .otsikko{
+    font-size: 10vw;
+    height: 11vw;
+    border: 3px solid whitesmoke; 
+    padding-bottom: 5%;
+  }
+  nav{
+    font-size: 5vw;
+    height: 7vw;
+    border: 3px solid blue; 
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  } 
+
+  nav > a {
+    border: 3px solid green;
+    text-decoration: none;
+  }
+  
+  .teksti {
+    font-size: 5vw;
+    border: 3px solid violet; 
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+  
